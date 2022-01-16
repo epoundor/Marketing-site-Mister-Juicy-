@@ -1,27 +1,4 @@
-
-      var swiper = new Swiper(".swiper", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        slidesPerView: 1,
-        breakpoints: {
-            // when window width is >= 320px
-            700: {
-              slidesPerView:2 ,
-              spaceBetween:0
-            },
-            // when window width is >= 480px
-            1000: {
-              slidesPerView: 3,
-            },
-            // when window width is >= 640px
-            1300: {
-              slidesPerView: 4,
-            }
-          } 
-        });
-    
+new Splide( '.splide' ).mount();
 
 
 // Counter
