@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/logo.png">
+    <link rel="stylesheet" href="splide-3.6.9/dist/css/splide.min.css">
+    <link href="aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Mister Juicy || L'Agence qui donne le juice à vos affaires</title>
+</head>
+<style>
+    #banner
+{
+    background-image: url("assets/banner.png") ;
+}
+    .banner_contact
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    min-width: 300px;
+    max-width: 60%;
+    margin:var(--m3) 5%;
+}
+.d
+{
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--m1);
+}
+    .details_content
+    {
+        justify-content: center;
+        align-items: stretch;
+        color: white;
+        gap: var(--m1);
+        margin: var(--m3) 0;
+    }
+    .details_content a
+    {
+        color: white;
+    }
+    .content
+    {
+        background-color: var(--first-color);
+        padding: var(--m3);
+        border-radius: 15px;
+        max-width: 250px;
+        width: fit-content;
+    }
+
+    .form input
+    {
+        width: 100%;
+        height: 50px;
+        margin: var(--m1) 0;
+    }
+    .form textarea
+    {
+        width: 100%;
+        margin: var(--m1) 0;
+    }
+    
+</style>
+<body>
+    <header class=" ">
+        <div class="bg-dark brand ">
+            <div class="logo  ">
+                <img src="assets/logo.png" alt="Logo Mister Juicy">
+            </div>
+                <h1 class="title white bold">Mister Juicy</h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav-block">
+                <li class="title "><a class="nav-list none" href="index.html">Accueil <span class="line"></span></a> </li>
+                <li class="title "><a class="nav-list none" href="index.html#axes">Nos Services <span class="line_hover"></span></a> </li>
+                <li class="title "><a class="nav-list none" href="index.html#actualites">Actualités <span class="line_hover"></span></a> </li>
+                <li class="title "><a class="nav-list none" href="catalogue.html">Nos Talents <span class="   line_hover"></span></a> </li>
+                <li class="title "><a class="nav-list none" href="contact.html">Contact <span class="line_hover"></span></a> </li>
+            </ul>
+        </nav>
+        <div class="menu ">
+          <span class="bar"></span>
+      </div>
+        <nav class="collapse">
+          <ul class="">
+            <li class="title "><a class="nav-list " href="index.html">Accueil</a></li>
+            <li class="title "><a class="nav-list " href="index.html#axes">Nos Services </a> </li>
+            <li class="title "><a class="nav-list " href="index.html#actualites">Actualités </a> </li>
+            <li class="title "><a class="nav-list " href="catalogue.html">Nos Talents </a> </li>
+            <li class="title "><a class="nav-list " href="contact.html">Contact </a> </li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner" class="fluid">
+            <div class="overlay"></div>
+          </div>
+                <div class="banner_contact "data-aos="fade-zoom-in"data-aos-easing="ease-in-back"data-aos-delay="300"data-aos-offset="0">
+                    <h1 class="title "><span class="em">Accueil   /</span>    Contact</h1>
+                </div>
+        </section>
+        <section id="details">
+            <div class="details_content flex">
+                <div class="content title" data-aos="fade-up">
+                    <p><span class="bold">Adresse:</span> Cotonou, Wologuèdé, en face de la pharmacie Opke Oluwa</p>
+                </div>
+                <div class="content title" data-aos="fade-up">
+                    <p><span class="bold">Horaires:</span> Tous les jours ouvrés de 09h à 18h</p>
+                </div>
+                <div class="content title" data-aos="fade-up">
+                    <p><span class="bold">Email:</span> <a class="text-muted" href="mailto:misterjuicy.co@gmail.com">misterjuicy.co@gmail.com</a> <br>
+                        <span class="bold">Tel:</span> <a href="tel:+229 69 62 60 42">+229 69 62 60 42</a></p>
+                </div>
+            </div>
+
+            <div class="flex d">
+                <form class ="form" action="">
+                    <input class="title" name="name" type="text" placeholder="Your Name">
+                    <input type="email" name="email" id="" class="title" placeholder="Votre e-mail">
+                    <input name="sujet"class="title" type="text" placeholder="Sujet">
+                    <textarea class="title" name="message" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+                </form>
+                <div class="map">
+                    <div style="width: 100%"><iframe width="600" height="650" id="gmap_canvas" src="https://maps.google.com/maps?q=6.359646,%202.351013&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>          </div>
+                </div>
+            </div>
+        </section>
+ 
+    </main>
+
+
+    <footer>
+        <div class="footer_content bg-dark flex">
+            <div class="footer_element" data-aos-once="true"data-aos="fade-up"data-aos-anchor-placement="bottom-bottom">
+                <h1 class="title bold">Mister Juicy</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cupiditate iusto eveniet sit, ratione commodi sapiente ad consequatur est rem magnam numquam modi dolorem quae sunt esse suscipit incidunt odit?</p>
+                <div class="flex">
+                  <div class="footer_social"><i class="fab fa-facebook-f"></i></div>
+                  <div class="footer_social"><i class="fab fa-instagram"></i></div>
+                  <div class="footer_social"><i class="fab fa-twitter"></i></div>
+                  
+                </div>
+            </div>
+            <div class="footer_element" data-aos-once="true"data-aos="fade-up"data-aos-anchor-placement="bottom-bottom">
+                <h1 class="title bold">Liens utliles</h1>
+                  <div class="footer_link">
+                          <span class="title"><a class="nav-list" href="index.html">Accueil </a> </span>
+                          <span class="title"><a class="nav-list" href="index.html#axes">Nos Services</a> </span>
+                          <span class="title"><a class="nav-list" href="index.html#actualites">Actualité</a> </span>
+                          <span class="title"><a class="nav-list" href="catalogue.html">Catalogue </a> </span>
+                          <span class="title"><a class="nav-list" href="contact.html">Contact </a> </span>
+                  </div>
+            </div>
+            <div class="footer_element" data-aos-once="true"data-aos="fade-up"data-aos-anchor-placement="bottom-bottom">
+              <h1 class="title bold">Redonnez du juice à vos affaires</h1>
+              <div class="footer_details">
+                 <a href="#">
+                      <i class="fas fa-map-marker-alt"></i>
+                     <span>Cotonou, Wologuèdé, en face de la pharmacie Opke Oluwa</span>
+                 </a><br><br>
+                 <a href="tel:+229 69 62 60 42">
+                      <i class="fas fa-phone-alt"></i>
+                     <span>+229 69 62 60 42</span>
+                 </a> <br><br>
+                 <a href="mailto:misterjuicy.co@gmail.com">
+                  <i class="fas fa-envelope"></i>
+                     <span>misterjuicy.co@gmail.com</span>
+                 </a>
+              </div>
+            </div>
+        </div>
+  </footer>
+<script src="aos.js"></script>
+<script src="nav.js"></script>
+<script src="main.js" ></script>
+<script>
+  AOS.init();
+</script>
+</html>
